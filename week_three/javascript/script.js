@@ -36,14 +36,55 @@
 // console.log(remainingLetters);
 
 //swap variable values
-var a = "3";
-var b = "8";
+// var a = "3";
+// var b = "8";
 
-if (a == "3" && b =="8") {
-    a = "8";
-    b = "3";
-} else {
-    console.log("Not this time!");
+// if (a == "3" && b =="8") {
+//     a = "8";
+//     b = "3";
+// } else {
+//     console.log("Not this time!");
+// }
+
+// console.log(a,b);
+
+//BMi Calculator
+
+function bmiCalc(weight, height) {
+    let heightSq = height * height;
+    // console.log(heightSq);
+    let userBMI = Math.round(weight/heightSq);
+    // console.log(userBMI);
+    return userBMI;
 }
 
-console.log(a,b);
+
+
+// var calculatedBMI = bmiCalc(65, 1.8);
+var calcBMI = bmiCalc(60, 1.8);
+
+//BMI message
+
+function bmiMessage(bmi) {
+    if(bmi < 18.5) {
+        return "Your BMI is " + bmi + ", you are underweight";
+    } else if (bmi > 18.5 && bmi < 24.9) {
+        return "Your BMI is " + bmi + ", so you have a normal weight";
+    } else {
+        return "Your BMI is " + bmi + ", you are overweight";
+    }
+}
+
+console.log(bmiMessage(calcBMI));
+
+//Who is buying lunch?
+
+
+
+function selectBillPayer(payer) {
+    return payer[Math.floor(Math.random()*payer.length)];
+}
+
+var payer = ["Angela", "Ben", "Jenny", "Michael", "Chloe"];
+console.log(selectBillPayer(payer));
+
