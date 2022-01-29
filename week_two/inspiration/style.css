@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Supermercado+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #000;
+    font-family: 'Lato', sans-serif;
+}
+
+h1 {
+    font-size: 3rem;
+    color: blanchedalmond;
+    text-align: center;
+    margin: 1rem 0;
+    font-family: 'Supermercado One', cursive;
+}
+
+.container {
+    width: 100%;
+    margin: 2rem 0;
+    padding: 0 2rem;
+    height: auto;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image {
+    width: 45%;
+    border: 5px solid blanchedalmond;
+    padding: .5rem;
+    text-align: center;
+}
+
+.text {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+a {
+    color: blanchedalmond;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+h3 {
+    font-size: 1.5rem;
+    margin-bottom: .5rem;
+}
+
+li {
+    font-size: 1.5rem;
+    color: blanchedalmond;
+    line-height: 1.5;
+}
