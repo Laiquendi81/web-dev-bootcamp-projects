@@ -45,8 +45,12 @@
 
             </form>
           </div>
-          <button type="button" class="btn btn-danger btn-sm me-2">Login</button>
-          <button type="button" class="btn btn-danger btn-sm ">Sign up</button>
+          <button type="button" class="btn btn-danger ms-2" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            Login
+          </button>
+          <button type="button" class="btn btn-danger ms-2" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            Sign in
+          </button>
   
         </div>
       </nav>
@@ -102,69 +106,139 @@
       <!-- cards -->
 
       <div class="container pt-5 ps-5 row row-cols-1 row-cols-md-2 g-4">
-        <div class="card mb-3 me-5 ms-5" style="max-width: 540px;">
+        <div class="card mb-3 me-5 ms-5 pe-0" style="max-width: 540px;">
             <div class="row g-0">
               <div class="col-md-8">
                 <div class="card-body">
+                  <p class="text-primary fw-bold">World</p>  
                   <h5 class="card-title">Global Conferences</h5>
+                  <h6 class="card-subtitle mb-2 text-muted">Nov 11</h6>
                   <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                  <p class="card-text"><small class="text-info">Continue reading</small></p>
                 </div>
               </div>
               <div class="col-md-4">
-                <img src="images/thumb1.jpg" class="img-fluid rounded-start" alt="...">
+                <img src="images/thumb1.jpg" class="img-fluid" alt="...">
               </div>
             </div>
           </div>
     
-          <div class="card mb-3 me-5" style="max-width: 540px;">
+          <div class="card mb-3 me-5 pe-0" style="max-width: 540px;">
             <div class="row g-0">
               <div class="col-md-8">
                 <div class="card-body">
+                    <h6 class="text-success fw-bold">Design</h6>  
                   <h5 class="card-title">Learn Designing</h5>
+                  <h6 class="card-subtitle mb-2 text-muted">Nov 11</h6>
                   <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                  <p class="card-text"><small class="text-info">Continue reading</small></p>
                 </div>
               </div>
               <div class="col-md-4">
-                <img src="images/thumb1.jpg" class="img-fluid rounded-start" alt="...">
+                <img src="images/thumb1.jpg" class="img-fluid" alt="...">
               </div>
             </div>
           </div>
     
-          <div class="card mb-3 me-5 ms-5" style="max-width: 540px;">
+          <div class="card mb-3 me-5 ms-5 pe-0" style="max-width: 540px;">
             <div class="row g-0">
               <div class="col-md-8">
                 <div class="card-body">
+                    <h6 class="text-danger fw-bold">FrontEnd</h6>
                   <h5 class="card-title">Bootstrap Templates</h5>
+                  <h6 class="card-subtitle mb-2 text-muted">Nov 12</h6>
                   <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                  <p class="card-text"><small class="text-info">Continue reading</small></p>
                 </div>
               </div>
               <div class="col-md-4">
-                <img src="images/thumb2.jpg" class="img-fluid rounded-start" alt="...">
+                <img src="images/thumb2.jpg" class="img-fluid" alt="...">
               </div>
             </div>
           </div>
     
-          <div class="card mb-3 me-5" style="max-width: 540px;">
+          <div class="card mb-3 me-5 pe-0" style="max-width: 540px;">
             <div class="row g-0">
               <div class="col-md-8">
                 <div class="card-body">
+                    <h6 class="text-warning fw-bold">Python</h6>
                   <h5 class="card-title">Learn Python</h5>
+                  <h6 class="card-subtitle mb-2 text-muted">Nov 11</h6>
                   <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                  <p class="card-text"><small class="text-info">Continue reading</small></p>
                 </div>
               </div>
               <div class="col-md-4">
-                <img src="images/thumb3.jpg" class="img-fluid rounded-start" alt="...">
+                <img src="images/thumb3.jpg" class="img-fluid" alt="...">
               </div>
             </div>
           </div>
       </div>
       
 
-      
+      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Login to iCoder</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <form>
+                <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label">Email address</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                  <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                </div>
+                <div class="mb-3">
+                  <label for="exampleInputPassword1" class="form-label">Password</label>
+                  <input type="password" class="form-control" id="exampleInputPassword1">
+                </div>
+                <div class="mb-3 form-check">
+                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                  <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+              </form>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Login to iCoder</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <form>
+                <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label">Email address</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                  <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                </div>
+                <div class="mb-3">
+                  <label for="exampleInputPassword1" class="form-label">Password</label>
+                  <input type="password" class="form-control" id="exampleInputPassword1">
+                </div>
+                <div class="mb-3 form-check">
+                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                  <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+              </form>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
        
 
     
