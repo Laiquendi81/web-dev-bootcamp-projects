@@ -96,6 +96,7 @@ button:hover {
     position: absolute;
     top: 25%;
     padding: .5rem;
+    z-index: 100;
 }
 
 .social-icons a {
