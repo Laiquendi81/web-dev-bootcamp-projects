@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: blanchedalmond;
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    background-color: cornsilk;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 1.5rem;
+}
+
+header input {
+    width: 480px;
+    border-radius: 50px;
+    padding: .5rem;
+    background-color: transparent;
+    border: 2px solid black;
+    font-family: inherit;
+}
+
+header input::placeholder {
+    color: darkgrey;
+    font-size: 1.1rem;
+}
+
+header input:focus {
+    outline: none;
+    background-color: bisque;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.movie {
+    background-color: cornsilk;
+    border-radius: 3px;
+    box-shadow: 0 4px 5px rgba(0,0,0, .6);
+    width: 300px;
+    height: 525px;
+    margin: 1rem;
+    overflow: hidden;
+    position: relative;
+}
+
+.movie img {
+    width: 100%;
+    height: 400px;
+}
+
+.movie-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0.5rem 1rem 1rem;
+    letter-spacing: 1px;
+}
+
+.movie-info h3 {
+    margin: 0;
+}
+
+.movie-info div {
+    background-color: blanchedalmond;
+    border-radius: 3px;
+    padding: .5rem;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.movie-info div p {
+    font-weight: bold;
+}
+
+.movie-info div.green {
+    background-color: greenyellow;
+}
+
+.movie-info div.orange {
+    background-color: orange;
+}
+
+.movie-info div.red {
+    background-color: red;
+}
+
+.overview {
+    position: absolute;
+    padding: 0.5rem 1rem 1rem;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    max-height: 100%;
+    overflow: auto;
+    background-color: cornsilk;
+    transform: translateY(100%);
+    transition: transform .3s ease-in;
+}
+
+.movie:hover .overview {
+    transform: translateY(0);
+}
