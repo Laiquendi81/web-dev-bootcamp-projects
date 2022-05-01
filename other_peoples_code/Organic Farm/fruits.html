@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <!-- Tab leaf icon -->
+  <link rel="icon" href="favicon.ico">
+  <!-- Page title -->
+  <title>Organic Farm | Fruits</title>
+
+  <!-- Google font -->
+  <link href="https://fonts.googleapis.com/css?family=Annie+Use+Your+Telescope&display=swap" rel="stylesheet">
+
+  <!-- CSS Stylesheets -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/392b3bca4a.js" crossorigin="anonymous"></script>
+
+  <!-- Bootstrap Scripts -->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <!-- Page header -->
+  <a href="index.html"><img src="images/page.jpg" alt="page-header"></a>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html"> Home </a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="#"><i class="fas fa-seedling fa-lg"></i> Fruits <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="vegetables.html">Vegetables</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="recipes.html">Recipes</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact us</a>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="login.html"><i class="fas fa-user fa-lg"></i> Log in or Sign up</a>
+          </li>
+        </ul>
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="basket.html"><i class="nav-link fas fa-shopping-basket fa-2x"></i></a>
+          </li>
+        </ul>
+      </form>
+    </div>
+  </nav>
+
+  <!-- Main body -->
+
+  <div class="main-body">
+    <div class="container container-fluid text-center">
+      <div class="row">
+        <div class="col">
+          <h2>All organic fresh fruits</h2>
+        </div>
+      </div>
+
+      <div class="row text-center">
+
+        <div class="col  col-lg-4 col-md-6 col-sm">
+          <div class="card" style="width: 18rem;">
+            <img src="https://www.canr.msu.edu/contentAsset/image/65451534-c492-476f-a090-e99917d0f526/fileAsset/filter/Resize,Jpeg/resize_w/720/jpeg_q/80" class="card-img-top" alt="apples">
+            <div class="card-body">
+              <h5 class="card-title">Apple</h5>
+              <p class="card-text price">£0.90 each</p>
+              <input type="number" class="form-control">
+              <button type="submit" class="btn basket-button">Add to basket</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col  col-lg-4 col-md-6 col-sm">
+          <div class="card" style="width: 18rem;">
+            <img src="https://res.cloudinary.com/orthodox-union/image/fetch/c_fill,f_auto/https://oukosher.org/content/uploads/2009/03/Apricots-2.jpeg" class="card-img-top" alt="apricots">
+            <div class="card-body">
+              <h5 class="card-title">Apricot</h5>
+              <p class="card-text price">£0.75 each</p>
+              <input type="number" class="form-control">
+              <button type="submit" class="btn basket-button">Add to basket</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col  col-lg-4 col-md-6 col-sm">
+          <div class="card" style="width: 18rem;">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQoFlb5hiLIe4RtIKa-c48rEHrS5ZquV1uzXedNQ5hdMmNAmtTa" class="card-img-top" alt="avocado">
+            <div class="card-body">
+              <h5 class="card-title">Avocado</h5>
+              <p class="card-text price">£1.50 each</p>
+              <input type="number" class="form-control">
+              <button type="submit" class="btn basket-button">Add to basket</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col  col-lg-4 col-md-6 col-sm">
+          <div class="card" style="width: 18rem;">
+            <img src="https://images-na.ssl-images-amazon.com/images/I/61fZ%2BYAYGaL._SL1500_.jpg" class="card-img-top" alt="banana">
+            <div class="card-body">
+              <h5 class="card-title">Banana</h5>
+              <p class="card-text price">£0.30 each</p>
+              <input type="number" class="form-control">
+              <button type="submit" class="btn basket-button">Add to basket</button>
+            </div>
+          </div>
+        </div>
+
+
+
+        <div class="col  col-lg-4 col-md-6 col-sm">
+          <div class="card" style="width: 18rem;">
+            <img
+              src="https://cdn-a.william-reed.com/var/wrbm_gb_food_pharma/storage/images/publications/food-beverage-nutrition/foodnavigator.com/news/science/blueberries-aid-healthy-ageing-studies-suggest/9984885-1-eng-GB/Blueberries-aid-healthy-ageing-studies-suggest_wrbm_large.jpg"
+              class="card-img-top" alt="blueberry">
+            <div class="card-body">
+              <h5 class="card-title">Blueberry</h5>
+              <p class="card-text price">£2.00 per 200g</p>
+              <input type="number" class="form-control">
+              <button type="submit" class="btn basket-button">Add to basket</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col col-lg-4 col-md-6 col-sm">
+          <div class="card" style="width: 18rem;">
+            <img src="https://i0.wp.com/cdn-prod.medicalnewstoday.com/content/images/articles/306/306498/cranberries.jpg?w=1155&h=1176" class="card-img-top" alt="cranberry">
+            <div class="card-body">
+              <h5 class="card-title">Cranberry</h5>
+              <p class="card-text price">£5.00 per 300g</p>
+              <input type="number" class="form-control">
+              <button type="submit" class="btn basket-button">Add to basket</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col col-lg-4 col-md-6 col-sm">
+          <div class="card" style="width: 18rem;">
+            <img src="https://www.collinsdictionary.com/images/full/gooseberry_152140109.jpg" class="card-img-top" alt="gooseberry">
+            <div class="card-body">
+              <h5 class="card-title">Gooseberry</h5>
+              <p class="card-text price">£4.80 per 300g</p>
+              <input type="number" class="form-control">
+              <button type="submit" class="btn basket-button">Add to basket</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col col-lg-4 col-md-6 col-sm">
+          <div class="card" style="width: 18rem;">
+            <img src="https://media.mercola.com/assets/images/foodfacts/figs-nutrition-facts.jpg" class="card-img-top" alt="figs">
+            <div class="card-body">
+              <h5 class="card-title">Fig</h5>
+              <p class="card-text price">£1.20 each</p>
+              <input type="number" class="form-control">
+              <button type="submit" class="btn basket-button">Add to basket</button>
+            </div>
+          </div>
+        </div>
+
+
+
+        <div class="col col-lg-4 col-md-6 col-sm">
+          <div class="card" style="width: 18rem;">
+            <img src="https://img1.exportersindia.com/product_images/bc-full/2012/5/5781320/grapes-1338460002-4219845.png" class="card-img-top" alt="grapes">
+            <div class="card-body">
+              <h5 class="card-title">Grapes</h5>
+              <p class="card-text price">£1.50 per box</p>
+              <input type="number" class="form-control">
+              <button type="submit" class="btn basket-button">Add to basket</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col col-lg-4 col-md-6 col-sm">
+          <div class="card" style="width: 18rem;">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/d/d0/Citrus_paradisi_%28Grapefruit%2C_pink%29_white_bg.jpg" class="card-img-top" alt="grapefruit">
+            <div class="card-body">
+              <h5 class="card-title">Grapefruit</h5>
+              <p class="card-text price">£1.15 each</p>
+              <input type="number" class="form-control">
+              <button type="submit" class="btn basket-button">Add to basket</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col col-lg-4 col-md-6 col-sm">
+          <div class="card" style="width: 18rem;">
+            <img src="https://www.friedas.com/wp-content/uploads/2013/09/Friedas_Kiwano-2.jpg" class="card-img-top" alt="kiwano">
+            <div class="card-body">
+              <h5 class="card-title">Kiwano</h5>
+              <p class="card-text price">£1.85 each</p>
+              <input type="number" class="form-control">
+              <button type="submit" class="btn basket-button">Add to basket</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col col-lg-4 col-md-6 col-sm">
+          <div class="card" style="width: 18rem;">
+            <img src="https://img.taste.com.au/VROML3_l/w720-h480-cfill-q80/taste/2016/11/kiwifruit-48114-1.jpg" class="card-img-top" alt="kiwi">
+            <div class="card-body">
+              <h5 class="card-title">Kiwi</h5>
+              <p class="card-text price">£0.70 each</p>
+              <input type="number" class="form-control">
+              <button type="submit" class="btn basket-button">Add to basket</button>
+            </div>
+          </div>
+        </div>
+
+
+
+        <div class="col col-lg-4 col-md-6 col-sm">
+          <div class="card" style="width: 18rem;">
+            <img src="https://cdn.nippys.com.au/nippys-website/site/wp-content/uploads/2016/12/13113305/Fruit_Lemons.jpg" class="card-img-top" alt="lemon">
+            <div class="card-body">
+              <h5 class="card-title">Lemon</h5>
+              <p class="card-text price">£0.65 each</p>
+              <input type="number" class="form-control">
+              <button type="submit" class="btn basket-button">Add to basket</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col col-lg-4 col-md-6 col-sm">
+          <div class="card" style="width: 18rem;">
+            <img src="https://safirevapes.co.uk/wp-content/uploads/2017/11/mango.jpg" class="card-img-top" alt="mango">
+            <div class="card-body">
+              <h5 class="card-title">Mango</h5>
+              <p class="card-text price">£2.00 each</p>
+              <input type="number" class="form-control">
+              <button type="submit" class="btn basket-button">Add to basket</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col col-lg-4 col-md-6 col-sm">
+          <div class="card" style="width: 18rem;">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/c/c4/Orange-Fruit-Pieces.jpg" class="card-img-top" alt="orange">
+            <div class="card-body">
+              <h5 class="card-title">Orange</h5>
+              <p class="card-text price">£0.50 each</p>
+              <input type="number" class="form-control">
+              <button type="submit" class="btn basket-button">Add to basket</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col col-lg-4 col-md-6 col-sm">
+          <div class="card" style="width: 18rem;">
+            <img src="https://d21mug5vzt7ic2.cloudfront.net/s24/83631/resize/83631_1.jpg" class="card-img-top" alt="passionfruit">
+            <div class="card-body">
+              <h5 class="card-title">Passion fruit</h5>
+              <p class="card-text price">£0.50 each</p>
+              <input type="number" class="form-control">
+              <button type="submit" class="btn basket-button">Add to basket</button>
+            </div>
+          </div>
+        </div>
+
+
+
+        <div class="col col-lg-4 col-md-6 col-sm">
+          <div class="card" style="width: 18rem;">
+            <img src="https://specialtyproduce.com/sppics/3341.png" class="card-img-top" alt="pear">
+            <div class="card-body">
+              <h5 class="card-title">Pear</h5>
+              <p class="card-text price">£0.80 each</p>
+              <input type="number" class="form-control">
+              <button type="submit" class="btn basket-button">Add to basket</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col col-lg-4 col-md-6 col-sm">
+          <div class="card" style="width: 18rem;">
+            <img src="https://bomar.ie/wp-content/uploads/2017/03/Pomegranate-Oil.jpg.jpg" class="card-img-top" alt="pomegranate">
+            <div class="card-body">
+              <h5 class="card-title">Pomegranate</h5>
+              <p class="card-text price">£3.00 each</p>
+              <input type="number" class="form-control">
+              <button type="submit" class="btn basket-button">Add to basket</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col col-lg-4 col-md-6 col-sm">
+          <div class="card" style="width: 18rem;">
+            <img src="https://cdn.shopify.com/s/files/1/1733/7409/products/Raspberries_f9263c6c-e4a7-41d9-b6a5-e795446631e4_x700.jpg?v=1539275589" class="card-img-top" alt="raspberry">
+            <div class="card-body">
+              <h5 class="card-title">Raspberry</h5>
+              <p class="card-text price">£3.50 per 200g</p>
+              <input type="number" class="form-control">
+              <button type="submit" class="btn basket-button">Add to basket</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col col-lg-4 col-md-6 col-sm">
+          <div class="card" style="width: 18rem;">
+            <img src="https://i5.walmartimages.ca/images/Enlarge/637/918/6000198637918.jpg" class="card-img-top" alt="strawberry">
+            <div class="card-body">
+              <h5 class="card-title">Strawberry</h5>
+              <p class="card-text price">£4.00 per 300g</p>
+              <input type="number" class="form-control">
+              <button type="submit" class="btn basket-button">Add to basket</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col col-lg-4 col-md-6 col-sm">
+          <div class="card" style="width: 18rem;">
+            <img src="https://www.getdoc.com/wp-content/uploads/2018/11/news-fruit-690x325.jpg" class="card-img-top" alt="fruits-assorted">
+            <div class="card-body">
+              <h5 class="card-title">Assorted</h5>
+              <p class="card-text price">£25.00 per bag</p>
+              <input type="number" class="form-control">
+              <button type="submit" class="btn basket-button">Add to basket</button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+
+  <footer class="text-center">
+    <div class="container-fluid">
+      <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f fa-2x footer-icon"></i></a>
+      <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter fa-2x footer-icon"></i></a>
+      <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram fa-2x footer-icon"></i></a>
+      <a href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin-in fa-2x footer-icon"></i></a>
+      <a href="mailto:someone@example.com" target="_blank"><i class="far fa-envelope fa-2x footer-icon"></i></a>
+      <a href="https://www.pinterest.co.uk/" target="_blank"><i class="fab fa-pinterest fa-2x footer-icon"></i></a>
+      <a href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube fa-2x footer-icon"></i></a>
+      <p class="text-muted"><em>&#0169; Copyright 2020 Organic Farm</em></p>
+    </div>
+  </footer>
+</body>
+
+</html>

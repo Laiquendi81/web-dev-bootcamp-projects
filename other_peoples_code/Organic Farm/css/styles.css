@@ -1,0 +1,256 @@
+/* Elements used throughout the whole website */
+html, body {
+  height: 100%;
+}
+
+.main-body {
+  background-image: url(background.jpg);
+  height: auto;
+  padding-top: 5%;
+  padding-bottom: 6em;
+}
+
+@media (min-width: 1600px) {
+    .container{
+        min-width: 100%;
+}
+}
+
+.story {
+  padding-top: 3%;
+}
+
+#video {
+  float: left;
+  width:100%;
+  height: 100%;
+}
+
+/* Headings */
+h1, h2 {
+  color: #584b42;
+  font-family: 'Annie Use Your Telescope', cursive;
+  font-size: 5em;
+}
+
+h2 {
+  margin-top:2%;
+}
+
+h5 {
+  font-size: 2em;
+}
+
+/* Basket and Thank you messages */
+.info {
+  margin:3em;
+  font-size: 2em;
+  color: #bbbbbb;
+}
+
+/* Images */
+img {
+  max-width: 100%;
+  max-height: 80%;
+  display: block;
+  margin: auto;
+}
+
+/* Paragraphs */
+p {
+  line-height: 1.5em;
+}
+
+/* Footer */
+footer {
+  height: 5%;
+}
+
+/* Products quantity */
+input[type="number"] {
+   width: 4em;
+   display:inline-grid;
+   vertical-align: middle;
+   margin-right: 0.5em;
+}
+
+/* Tables */
+table {
+  margin: auto;
+}
+
+table td {
+  line-height: 1em;
+}
+
+
+/* Navbar */
+.fa-seedling, .fa-user {
+  color: #5cb85c;
+}
+
+/* Testimonials */
+.testimonial-text {
+  padding: 3em 12em 2em 12em;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+/* Press */
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Carousel */
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 55px;
+  color: grey;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 55px;
+  color: grey;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-image: none;
+}
+
+/* Features */
+.feature-p {
+  margin-bottom: 100em;
+}
+
+#features {
+  position: relative;
+  margin-top: 4%;
+  margin-bottom: 9%;
+}
+
+#features h3 {
+  margin-top: 1em;
+}
+
+#features p {
+  margin: 1em 7em;
+}
+
+#yellow {
+  color: #ffd369;
+}
+
+#blue {
+  color: #297ca0;
+}
+
+#green {
+  color: #5cb85c;
+}
+
+/* Products - Fruits and Vegetables pages */
+.card {
+  margin: 2em auto;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 8vw;
+    object-fit:contain;
+}
+
+.basket-button {
+  background-color: #5cb85c;
+  color: white;
+}
+
+.price {
+  font-size: 1.5em;
+}
+
+/* Recipes */
+.recipe-title {
+  font-family: 'Lato';
+  font-size: 2em;
+}
+
+#slogan {
+  font-size: 1.5em;
+  margin: 2em auto 3em;
+}
+
+.recipe:hover {
+  color: #584b42;
+}
+
+/* Contact */
+#map {
+  width: 95%;
+  height: 500px;
+  margin-bottom: 10%;
+}
+
+#my-button {
+background:  #584b42;
+border-radius: 6px;
+padding: 8px 20px;
+color: #ffffff;
+display: inline-block;
+}
+
+/*Login page*/
+.form-signin {
+  width: 100%;
+  max-width: 400px;
+  padding: 15px;
+  margin: 0 auto;
+}
+.form-signin .checkbox {
+  font-weight: 400;
+}
+.form-signin .form-control {
+  position: relative;
+  box-sizing: border-box;
+  height: auto;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+/*Sign up*/
+.signup {
+  margin: auto 1em;
+  height: 3em;
+  width: 3em;
+  border-radius: 100%;
+}
+
+/* Footer */
+.footer-icon {
+  margin: 1em 1em;
+  color: #ADDBAD;
+}
+
+.footer-icon:hover {
+  color: #5cb85c;
+}

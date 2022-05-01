@@ -5,7 +5,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 body {
@@ -553,7 +553,7 @@ footer p {
   .contact-form {
     background-color: #f2d2bd;
     width: 50%;
-    margin-top: 4rem;
+    margin: 4rem 2rem;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -702,45 +702,50 @@ footer p {
     
 }
 
+@media (max-width: 991px) {
+    .about-container {
+        flex-direction: column-reverse;
+        height: 150vh;
+        margin-top: 2rem;
+        margin-bottom: 0;
+    }
+
+    .about-text, .about-image {
+        width: 100%; 
+    }
+
+    .about-image {
+        padding: 0;
+    }
+
+    .about-text {
+        height: 40%;
+        padding: 0 3rem 3rem;
+        align-items: flex-start;
+    }
+
+    .about-text p {
+        font-size: 1.2rem;
+        padding: 0;
+    }
+}
+
 @media (max-width: 820px) {
 
     #hidden-nav ul li a {
         font-size: 2.5rem;
     }
 
-    .about-container {
-        flex-direction: column-reverse;
-        margin-top: 10rem;
-    }
-
-    .about-image {
-        width: 100%;
-    }
-
-    .about-text {
-        width: 100%;
-        margin: 0 auto;
-        padding-left: 0;
-        padding-bottom: 6rem;
-    }
-
-    .about-text p {
-        font-size: 1.2rem;
-        padding: .5rem;
-    }
-
     .contact-form {
         width: 80%;
         margin-top: 5rem;
-    }
-    
+    }  
 }
 
 @media (max-width: 763px) {
     .wrapper {
         left: 2rem;
         top: 6rem;
-        
     }
 
     #hidden-nav {
@@ -752,26 +757,22 @@ footer p {
     }
 
     .social-icons {
-        
         max-width: 100%;
         flex-direction: row;
         top: 4rem;
         left: 1rem;
         width: 100%;
         position: absolute;
-       
     }
 
     .social-icons a {
         width: 40px;
-        height: 40px;
-        
+        height: 40px;  
     }
 
     .social-icons a i {
         font-size: 1.5rem;
-        padding: .6rem;
-        
+        padding: .6rem; 
     }
 
     .block-one {
@@ -785,6 +786,15 @@ footer p {
     .block-three {
         display: none;
     }
+
+    .about-image {
+        align-items: flex-end;
+    }
+
+    .about-image img {
+        width: auto;
+        height: 80%;
+    }
 }
 
 @media (max-width: 550px) {
@@ -796,4 +806,18 @@ footer p {
         width: 90%;
         margin-top: 5rem;
     }
+
+    .about-image {
+        height: 50%;
+        align-items: flex-start;
+        padding-top: 1.5rem;
+
+    }
+
+    .about-image img {
+        width: auto;
+        height: 90%;
+    }
+
+    
 }

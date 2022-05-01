@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head lang="en">
+  <meta charset="utf-8">
+  <!-- Tab leaf icon -->
+  <link rel="icon" href="favicon.ico">
+  <!-- Page title -->
+  <title>Organic Farm | Vegetables</title>
+
+  <!-- Google font -->
+  <link href="https://fonts.googleapis.com/css?family=Annie+Use+Your+Telescope&display=swap" rel="stylesheet">
+
+  <!-- CSS Stylesheets -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/392b3bca4a.js" crossorigin="anonymous"></script>
+
+  <!-- Bootstrap Scripts -->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <!-- Page header -->
+  <a href="index.html"><img src="images/page.jpg" alt="page-header"></a>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html"> Home </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="fruits.html"> Fruits</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="#"><i class="fas fa-seedling fa-lg"></i> Vegetables <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="recipes.html">Recipes</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact us</a>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="login.html"><i class="fas fa-user fa-lg"></i> Log in or Sign up</a>
+          </li>
+        </ul>
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="basket.html"><i class="nav-link fas fa-shopping-basket fa-2x"></i></a>
+          </li>
+        </ul>
+      </form>
+    </div>
+  </nav>
+
+  <!-- Main body -->
+
+  <div class="main-body">
+    <div class="container container-fluid text-center">
+      <div class="row">
+        <div class="col">
+          <h2>All organic fresh vegetables</h2>
+        </div>
+      </div>
+
+      <div class="row text-center">
+
+        <div class="col col-lg-4 col-md-6 col-sm">
+          <div class="card" style="width: 18rem;">
+            <img src="https://www.fillpots.co.uk/files/images/news/plant-globe-artichokes-now-1497961990-1497962653_n.jpg" class="card-img-top" alt="artichoke">
+            <div class="card-body">
+              <h5 class="card-title">Artichoke</h5>
+              <p class="card-text price">£2.00 each</p>
+              <input type="number" class="form-control">
+              <button type="submit" class="btn basket-button">Add to basket</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col col-lg-4 col-md-6 col-sm">
+          <div class="card" style="width: 18rem;">
+            <img src="https://agrohemija.com.mk/wp-content/uploads/2018/05/modar-patligan.jpg" class="card-img-top" alt="aubergine">
+            <div class="card-body">
+              <h5 class="card-title">Aubergine</h5>
+              <p class="card-text price">£0.70 each</p>
+              <input type="number" class="form-control">
+              <button type="submit" class="btn basket-button">Add to basket</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col col-lg-4 col-md-6 col-sm">
+          <div class="card" style="width: 18rem;">
+            <img src="https://www.tradelinkinternational.com/sa/wp-content/uploads/2018/04/as%C3%A0rragus.jpg" class="card-img-top" alt="asparagus">
+            <div class="card-body">
+              <h5 class="card-title">Asparagus</h5>
+              <p class="card-text price">£3.00 per 200g</p>
+              <input type="number" class="form-control">
+              <button type="submit" class="btn basket-button">Add to basket</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col col-lg-4 col-md-6 col-sm">
+          <div class="card" style="width: 18rem;">
+            <img src="https://i5.walmartimages.ca/images/Large/-40/662/999999-40662.jpg" class="card-img-top" alt="beans-green">
+            <div class="card-body">
+              <h5 class="card-title">Beans (green)</h5>
+              <p class="card-text price">£3.00 per kg</p>
+              <input type="number" class="form-control">
+              <button type="submit" class="btn basket-button">Add to basket</button>
+            </div>
+          </div>
+        </div>
+
+
+
+        <div class="col col-lg-4 col-md-6 col-sm">
+          <div class="card" style="width: 18rem;">
+            <img src="https://s3.amazonaws.com/cdn-origin-etr.akc.org/wp-content/uploads/2016/07/25130000/broccoli_header-800x533.jpg" class="card-img-top" alt="broccoli">
+            <div class="card-body">
+              <h5 class="card-title">Broccoli</h5>
+              <p class="card-text price">£1.00 each</p>
+              <input type="number" class="form-control">
+              <button type="submit" class="btn basket-button">Add to basket</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col col-lg-4 col-md-6 col-sm">
+          <div class="card" style="width: 18rem;">
+            <img src="https://pcdn.columbian.com/wp-content/uploads/2019/08/0830_met_cabbage-1226x0-c-default.jpg" class="card-img-top" alt="cabbage">
+            <div class="card-body">
+              <h5 class="card-title">Cabbage</h5>
+              <p class="card-text price">£1.50 each</p>
+              <input type="number" class="form-control">
+              <button type="submit" class="btn basket-button">Add to basket</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col col-lg-4 col-md-6 col-sm">
+          <div class="card" style="width: 18rem;">
+            <img src="https://i.dlpng.com/static/png/450053_preview.png" class="card-img-top" alt="cauliflower">
+            <div class="card-body">
+              <h5 class="card-title">Cauliflower</h5>
+              <p class="card-text price">£2.00 each</p>
+              <input type="number" class="form-control">
+              <button type="submit" class="btn basket-button">Add to basket</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col col-lg-4 col-md-6 col-sm">
+          <div class="card" style="width: 18rem;">
+            <img src="https://www.sunshinecooperative.co.uk/wp-content/uploads/2018/09/Celery.png" class="card-img-top" alt="celery">
+            <div class="card-body">
+              <h5 class="card-title">Celery</h5>
+              <p class="card-text price">£3.00 per 500g</p>
+              <input type="number" class="form-control">
+              <button type="submit" class="btn basket-button">Add to basket</button>
+            </div>
+          </div>
+        </div>
+
+
+
+        <div class="col col-lg-4 col-md-6 col-sm">
+          <div class="card" style="width: 18rem;">
+            <img src="https://sklep.smart-garden.pl/environment/cache/images/500_500_productGfx_f4fff985c64e9d40a71a12d3185ea7e2.jpg" class="card-img-top" alt="lettuce">
+            <div class="card-body">
+              <h5 class="card-title">Lettuce</h5>
+              <p class="card-text price">£1.50 each</p>
+              <input type="number" class="form-control">
+              <button type="submit" class="btn basket-button">Add to basket</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col col-lg-4 col-md-6 col-sm">
+          <div class="card" style="width: 18rem;">
+            <img src="https://5.imimg.com/data5/BP/VQ/PI/SELLER-80274590/fresh-button-mushrooms-500x500.jpg" class="card-img-top" alt="button-mushroom">
+            <div class="card-body">
+              <h5 class="card-title">Mushrooms B</h5>
+              <p class="card-text price">£3.00 per 500g</p>
+              <input type="number" class="form-control">
+              <button type="submit" class="btn basket-button">Add to basket</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col col-lg-4 col-md-6 col-sm">
+          <div class="card" style="width: 18rem;">
+            <img src="https://s3.envato.com/files/263580311/2190315-002.jpg" class="card-img-top" alt="chestnut-mushroom">
+            <div class="card-body">
+              <h5 class="card-title">Mushrooms C</h5>
+              <p class="card-text price">£3.50 per 400g</p>
+              <input type="number" class="form-control">
+              <button type="submit" class="btn basket-button">Add to basket</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col col-lg-4 col-md-6 col-sm">
+          <div class="card" style="width: 18rem;">
+            <img src="https://cdn.britannica.com/60/157660-050-99656755/Okra-fruits-section.jpg" class="card-img-top" alt="okra">
+            <div class="card-body">
+              <h5 class="card-title">Okra</h5>
+              <p class="card-text price">£2.50 per 500g</p>
+              <input type="number" class="form-control">
+              <button type="submit" class="btn basket-button">Add to basket</button>
+            </div>
+          </div>
+        </div>
+
+
+
+        <div class="col col-lg-4 col-md-6 col-sm">
+          <div class="card" style="width: 18rem;">
+            <img src="https://www.ageold.com/wp-content/uploads/2016/01/Dollarphotoclub_55631648-a.jpg" class="card-img-top" alt="onion">
+            <div class="card-body">
+              <h5 class="card-title">Onion</h5>
+              <p class="card-text price">£3.00 per kg</p>
+              <input type="number" class="form-control">
+              <button type="submit" class="btn basket-button">Add to basket</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col col-lg-4 col-md-6 col-sm">
+          <div class="card" style="width: 18rem;">
+            <img src="https://i0.wp.com/dar24.com/wp-content/uploads/2019/05/pilipili-hoho.jpg?resize=696%2C464" class="card-img-top" alt="pepper">
+            <div class="card-body">
+              <h5 class="card-title">Pepper</h5>
+              <p class="card-text price">£1.00 each</p>
+              <input type="number" class="form-control">
+              <button type="submit" class="btn basket-button">Add to basket</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col col-lg-4 col-md-6 col-sm">
+          <div class="card" style="width: 18rem;">
+            <img src="https://image.freepik.com/free-photo/corn-isolated-white-background_93675-36142.jpg" class="card-img-top" alt="sweetcorn">
+            <div class="card-body">
+              <h5 class="card-title">Sweetcorn</h5>
+              <p class="card-text price">£1.50 each</p>
+              <input type="number" class="form-control">
+              <button type="submit" class="btn basket-button">Add to basket</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col col-lg-4 col-md-6 col-sm">
+          <div class="card" style="width: 18rem;">
+            <img src="https://img.utopia.de/grgcBLp75cP66rAZ8v4BPtky9YU=/640x300/https://utopia.de/app/uploads/2017/06/topinambur-schlen-kochen-zubereiten-cc0-colourboxde-170621.jpg" class="card-img-top" alt="topinambur">
+            <div class="card-body">
+              <h5 class="card-title">Topinambur</h5>
+              <p class="card-text price">£2.00 each</p>
+              <input type="number" class="form-control">
+              <button type="submit" class="btn basket-button">Add to basket</button>
+            </div>
+          </div>
+        </div>
+
+
+
+        <div class="col col-lg-4 col-md-6 col-sm">
+          <div class="card" style="width: 18rem;">
+            <img src="https://www.bellavitashop.co.uk/1341-large_default/vine-tomatoes-500gr-350kg.jpg" class="card-img-top" alt="tomato">
+            <div class="card-body">
+              <h5 class="card-title">Tomato</h5>
+              <p class="card-text price">£1.00 each</p>
+              <input type="number" class="form-control">
+              <button type="submit" class="btn basket-button">Add to basket</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col col-lg-4 col-md-6 col-sm">
+          <div class="card" style="width: 18rem;">
+            <img src="https://www.realfoods.co.uk/ProductImagesID/2660_1.jpg" class="card-img-top" alt="turnip">
+            <div class="card-body">
+              <h5 class="card-title">Turnip</h5>
+              <p class="card-text price">£2.45 each</p>
+              <input type="number" class="form-control">
+              <button type="submit" class="btn basket-button">Add to basket</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col col-lg-4 col-md-6 col-sm">
+          <div class="card" style="width: 18rem;">
+            <img src="https://www.ocado.com/productImages/286/286101011_0_640x640.jpg?identifier=640e9600637a28556c4011539e4310a8" class="card-img-top" alt="watercress">
+            <div class="card-body">
+              <h5 class="card-title">Watercress</h5>
+              <p class="card-text price">£5.50 per 200g</p>
+              <input type="number" class="form-control">
+              <button type="submit" class="btn basket-button">Add to basket</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col col-lg-4 col-md-6 col-sm">
+          <div class="card" style="width: 18rem;">
+            <img src="https://cdn.shopify.com/s/files/1/1891/6405/products/shop-online-from-holland-vegetables-organic-green-zucchini-courgette-22-28cms-fresh-food-in-dubai-and-abu-dhabi-24626547470_1200x1200.jpg?v=1513198585" class="card-img-top"
+              alt="zucchini">
+            <div class="card-body">
+              <h5 class="card-title">Zucchini</h5>
+              <p class="card-text price">£2.00 each</p>
+              <input type="number" class="form-control">
+              <button type="submit" class="btn basket-button">Add to basket</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col col-lg-4 col-md-6 col-sm">
+          <div class="card" style="width: 18rem;">
+            <img src="https://www.vegan.io/blog/assets/10-healthiest-vegetables-to-include-in-your-vegan-diet-2018-04-16/healthiest-vegetables-df1cf550711076d052eaade12c38289a2637c38e546182d3c0136a90cb0bb0b3.jpg" class="card-img-top"
+              alt="veg-assorted">
+            <div class="card-body">
+              <h5 class="card-title">Assorted</h5>
+              <p class="card-text price">£25.00 per bag</p>
+              <input type="number" class="form-control">
+              <button type="submit" class="btn basket-button">Add to basket</button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+
+
+  <!-- Footer -->
+
+  <footer class="text-center">
+    <div class="container-fluid">
+      <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f fa-2x footer-icon"></i></a>
+      <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter fa-2x footer-icon"></i></a>
+      <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram fa-2x footer-icon"></i></a>
+      <a href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin-in fa-2x footer-icon"></i></a>
+      <a href="mailto:someone@example.com" target="_blank"><i class="far fa-envelope fa-2x footer-icon"></i></a>
+      <a href="https://www.pinterest.co.uk/" target="_blank"><i class="fab fa-pinterest fa-2x footer-icon"></i></a>
+      <a href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube fa-2x footer-icon"></i></a>
+      <p class="text-muted"><em>&#0169; Copyright 2020 Organic Farm</em></p>
+    </div>
+  </footer>
+</body>
+
+</html>

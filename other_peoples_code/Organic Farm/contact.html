@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <!-- Tab leaf icon -->
+  <link rel="icon" href="favicon.ico">
+  <!-- Page title -->
+  <title>Organic Farm | Contact us</title>
+
+  <!-- Google font -->
+  <link href="https://fonts.googleapis.com/css?family=Annie+Use+Your+Telescope&display=swap" rel="stylesheet">
+
+  <!-- CSS Stylesheets -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/392b3bca4a.js" crossorigin="anonymous"></script>
+
+  <!-- Bootstrap Scripts -->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <!-- Page header -->
+  <a href="index.html"><img src="images/page.jpg" alt="page-header"></a>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html"> Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="fruits.html"> Fruits</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="vegetables.html">Vegetables</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="recipes.html"> Recipes</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="#"><i class="fas fa-seedling fa-lg"></i> Contact us <span class="sr-only">(current)</span></a>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="login.html"><i class="fas fa-user fa-lg"></i> Log in or Sign up</a>
+          </li>
+        </ul>
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="basket.html"><i class="nav-link fas fa-shopping-basket fa-2x"></i></a>
+          </li>
+        </ul>
+      </form>
+    </div>
+  </nav>
+
+  <!-- Main body -->
+
+  <div class="main-body">
+    <div class="container container-fluid text-center">
+      <h2>Where to find us?</h2>
+      <p>
+        Organic Farm, Spatham Ln, Ditchling, Hassocks BN6 8XJ
+      </p>
+      <!-- Google Maps -->
+      <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2514.747912539681!2d-0.10136048436560623!3d50.92838007954416!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48758ff5541b39f1%3A0x74b98e9f46760dd1!2sStocks%20Farm!5e0!3m2!1sen!2suk!4v1587573885436!5m2!1sen!2suk" style="border:0;"
+        allowfullscreen=""></iframe>
+    </div>
+
+    <div class="container text-center">
+      <div class="row">
+        <div class="col-md">
+          <h2>Get in touch!</h2>
+          <p>
+            We love hearing from you and will try our best to respond to all questions you may have.
+          </p>
+          <form target="_blank" action="thankyou.html" onsubmit="setTimeout(function(){window.location.reload();},10)">
+            <div class="form-row">
+              <div class="form-group col-md-4">
+                <input type="text" class="form-control" placeholder="Name" required>
+              </div>
+              <div class="form-group col-md-4">
+                <input type="email" class="form-control" placeholder="Email" required>
+              </div>
+              <div class="form-group col-md-4">
+                <input type="tel" class="form-control" placeholder="Phone number" required>
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group col-md">
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="10" placeholder="Type your message here..." required></textarea>
+              </div>
+            </div>
+            <button type="submit" class="btn" id="my-button">Submit</button>
+          </form>
+        </div>
+
+
+        <div class="col-md">
+          <h2>Business hours</h2>
+          <p>
+            Please feel free to contact us during the hours below:
+          </p>
+          <table class="table table-striped w-75">
+            <thead>
+              <tr>
+                <th scope="col">Day</th>
+                <th scope="col">Opening hours</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Monday</td>
+                <td>06:00 - 15:00</td>
+              </tr>
+              <tr>
+                <td>Tuesday</td>
+                <td>06:00 - 15:00</td>
+              </tr>
+              <tr>
+                <td>Wednesday</td>
+                <td>08:00 - 13:00</td>
+              </tr>
+              <tr>
+                <td>Thursday</td>
+                <td>08:00 - 17:00</td>
+              </tr>
+              <tr>
+                <td>Friday</td>
+                <td>08:00 - 17:00</td>
+              </tr>
+              <tr>
+                <td>Saturday</td>
+                <td>08:00 - 12:00</td>
+              </tr>
+              <tr>
+                <td>Sunday & Bank Holidays</td>
+                <td>Closed</td>
+              </tr>
+            </tbody>
+          </table>
+
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Footer -->
+
+  <footer class="text-center">
+    <div class="container-fluid">
+      <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f fa-2x footer-icon"></i></a>
+      <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter fa-2x footer-icon"></i></a>
+      <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram fa-2x footer-icon"></i></a>
+      <a href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin-in fa-2x footer-icon"></i></a>
+      <a href="mailto:someone@example.com" target="_blank"><i class="far fa-envelope fa-2x footer-icon"></i></a>
+      <a href="https://www.pinterest.co.uk/" target="_blank"><i class="fab fa-pinterest fa-2x footer-icon"></i></a>
+      <a href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube fa-2x footer-icon"></i></a>
+      <p class="text-muted"><em> &#0169; Copyright 2020 Organic Farm</em></p>
+    </div>
+  </footer>
+</body>
+
+</html>
